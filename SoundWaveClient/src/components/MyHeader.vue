@@ -1,5 +1,6 @@
 <template>
-    <div>
+    <div class ="MyHeader">
+        dfhdfdj
         <svg>
 
         </svg>
@@ -22,5 +23,11 @@ export default{
 </script>
 
 <style scoped>
-
+    .MyHeader{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        background-color: aqua;
+        
+    }
 </style>
