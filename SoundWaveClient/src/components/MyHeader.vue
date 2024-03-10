@@ -1,6 +1,5 @@
 <template>
-    <div class ="MyHeader">
-        dfhdfdj
+    <div class ="my-header">
         <svg>
 
         </svg>
@@ -12,6 +11,7 @@
 
 <script>
 export default{
+    name:'my-header',
     data(){
 
     },
@@ -23,11 +23,13 @@ export default{
 </script>
 
 <style scoped>
-    .MyHeader{
+    .my-header{
+        padding: 20px 0px;
         display: flex;
         justify-content: center;
         gap: 20px;
         background-color: aqua;
+        border-radius: 10px;
         
     }
 </style>

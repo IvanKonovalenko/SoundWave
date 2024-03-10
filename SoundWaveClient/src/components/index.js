@@ -1,12 +1,19 @@
-import MyTopcharts from "./MyTopcharts.vue";
-import MyMusicserachresult from "./MyMusicserachresult.vue";
+import MyTopCharts from "./MyTopCharts.vue";
+import MyMusicSerachResult from "./MyMusicSearchResult.vue";
 import MyFooter from "./MyFooter.vue";
 import MyHeader from "./MyHeader.vue";
+import MyAuth from "./MyHeader/MyAuth.vue";
+import MySearch from "./MyHeader/MySearch.vue";
+import MyPlayer from "./MyHeader/MyPlayer.vue";
 
-MyHeader.name = 'my-header';
+
+
 export default[
     MyFooter,
     MyHeader,
-    MyMusicserachresult,
-    MyTopcharts
+    MyMusicSerachResult,
+    MyTopCharts,
+    MyAuth,
+    MySearch,
+    MyPlayer
 ]

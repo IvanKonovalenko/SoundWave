@@ -3,8 +3,8 @@
         
         <my-header></my-header>
         <div>
-            <my-topcharts></my-topcharts>
-            <my-musicserchresult></my-musicserchresult>
+            <my-top-charts></my-top-charts>
+            <my-music-search-result></my-music-search-result>
         </div>
         <my-footer>
         </my-footer>
@@ -12,6 +12,8 @@
 </template>
 
 <script>
+
+
 export default{
     data(){
 
@@ -24,9 +26,4 @@ export default{
 </script>
 
 <style scoped>
-    *{
-        margin: 0;
-        padding: 0;
-        
-    }
 </style>

@@ -1,12 +1,14 @@
 <template>
     <div>
-        
+        <audio controls>
+            
+        </audio> 
     </div>
 </template>
 
 <script>
 export default{
-    name:'my-footer',
+    name:'my-player',
     data(){
 
     },
@@ -18,4 +20,5 @@ export default{
 </script>
 
 <style scoped>
+
 </style>

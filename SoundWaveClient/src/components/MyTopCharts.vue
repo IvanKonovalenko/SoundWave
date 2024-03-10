@@ -1,12 +1,12 @@
 <template>
     <div>
-        
+      
     </div>
 </template>
 
 <script>
 export default{
-    name:'my-footer',
+    name:'my-top-charts',
     data(){
 
     },
@@ -18,4 +18,5 @@ export default{
 </script>
 
 <style scoped>
+
 </style>
