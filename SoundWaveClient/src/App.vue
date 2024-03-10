@@ -1,5 +1,6 @@
 <template>
     <div>
+        
         <my-header></my-header>
         <div>
             <my-topcharts></my-topcharts>
@@ -23,5 +24,9 @@ export default{
 </script>
 
 <style scoped>
-
+    *{
+        margin: 0;
+        padding: 0;
+        
+    }
 </style>
