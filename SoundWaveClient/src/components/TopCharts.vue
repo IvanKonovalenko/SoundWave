@@ -1,14 +1,12 @@
 <template>
     <div>
-        <audio controls>
-            
-        </audio> 
+      
     </div>
 </template>
 
 <script>
 export default{
-    name:'my-player',
+    name:'TopCharts',
     data(){
 
     },

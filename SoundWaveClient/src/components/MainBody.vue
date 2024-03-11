@@ -6,7 +6,7 @@
 
 <script>
 export default{
-    name:'my-music-search-result',
+    name:'MainBody',
     data(){
 
     },
@@ -18,5 +18,4 @@ export default{
 </script>
 
 <style scoped>
-
 </style>

@@ -5,8 +5,9 @@
 </template>
 
 <script>
+
 export default{
-    name:'my-footer',
+    name:'LoginStatus',
     data(){
 
     },
@@ -18,4 +19,5 @@ export default{
 </script>
 
 <style scoped>
+
 </style>

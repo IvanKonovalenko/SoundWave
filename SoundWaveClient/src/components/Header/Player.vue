@@ -1,12 +1,14 @@
 <template>
     <div>
-      
+        <audio controls>
+            
+        </audio> 
     </div>
 </template>
 
 <script>
 export default{
-    name:'my-auth',
+    name:'Player',
     data(){
 
     },

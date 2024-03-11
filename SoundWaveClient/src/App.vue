@@ -1,13 +1,13 @@
 <template>
     <div>
         
-        <my-header></my-header>
+        <Header/>
         <div>
-            <my-top-charts></my-top-charts>
-            <my-music-search-result></my-music-search-result>
+            <TopCharts></TopCharts>
+            <MainBody></MainBody>
         </div>
-        <my-footer>
-        </my-footer>
+        <Footer>
+        </Footer>
     </div>
 </template>
 
