@@ -5,6 +5,8 @@ import Player from "./Header/Player.vue";
 import Search from "./Header/Search.vue";
 import LoginStatus from "./Header/LoginStatus.vue";
 import MainBody from "./MainBody.vue";
+import Button from "./UI/Button.vue";
+import AccountLogin from "./Header/AccountLogin.vue";
 
 
 
@@ -15,6 +17,8 @@ export default[
     Player,
     Search,
     LoginStatus,
-    MainBody
+    MainBody,
+    Button,
+    AccountLogin
     
 ]

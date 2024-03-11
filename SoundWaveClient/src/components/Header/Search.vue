@@ -1,9 +1,9 @@
 <template>
     <div class="search-container">
-        <v-icon  name="fa-search"  scale="2" />
-            <input class="input"/>
+        <v-icon  name="fa-search"  scale="1" />
+         <input class="input" placeholder="Search music"/>
         
-        <button class="btn-Search" @click="add">Search</button>
+        <Button>Search</Button>
     </div>
 </template>
 
@@ -11,7 +11,9 @@
 export default{
     name:'Search',
     data(){
-
+        return{
+        
+    }
     },
     methods:{
 
@@ -35,24 +37,16 @@ export default{
     }
     .input{
         color: white;
-        font-size: 25px;
+        font-size: 15px;
         width: 90%;
         background-color: #717070;
         border: none;
-        border-bottom: 4px solid white;
+        border-bottom: 2px solid white;
         border-radius: 10px;
         outline: none;
     }
-    .btn-Search{
-        color: white;
-        border-radius: 10px;
-        font-size: 25px;
-        border: none;
-        padding: 0px 20px;
-        background-color: blue;
-    }
-    .btn-Search:hover{
-        background-color: rgb(40, 72, 231);
+    .input::placeholder{
+        color: rgb(179, 169, 169);
     }
     
 </style>

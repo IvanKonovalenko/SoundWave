@@ -1,6 +1,7 @@
 <template>
     <div>
-        
+        <Button v-if="status==false">Login</Button>
+        <AccountLogin v-else></AccountLogin>
     </div>
 </template>
 
@@ -9,7 +10,10 @@
 export default{
     name:'LoginStatus',
     data(){
-
+        return{
+            status:true
+    }
+ 
     },
     methods:{
 
