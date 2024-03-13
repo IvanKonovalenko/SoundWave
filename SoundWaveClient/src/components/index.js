@@ -7,7 +7,7 @@ import LoginStatus from "./Header/LoginStatus.vue";
 import MainBody from "./MainBody.vue";
 import Button from "./UI/Button.vue";
 import AccountLogin from "./Header/AccountLogin.vue";
-
+import Menu from "./Menu.vue"
 
 
 export default[
@@ -19,6 +19,7 @@ export default[
     LoginStatus,
     MainBody,
     Button,
-    AccountLogin
+    AccountLogin,
+    Menu
     
 ]
