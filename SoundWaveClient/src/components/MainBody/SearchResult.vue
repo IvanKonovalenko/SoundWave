@@ -1,29 +1,25 @@
 <template>
     <div>
-        <SerachResult :searchQuery="searchQuery"></SerachResult>
+        
     </div>
 </template>
 
 <script>
 export default{
-    name:'MainBody',
+    name:'SearchResult',
     props:{
         searchQuery:{
             type:String,
-            requierd:true
-        },
-        idContent:{
-            type:Number,
             requierd:true
         }
     },
     data(){
         return{
-            
+            musics:[]
         }
     },
     methods:{
-
+        
     }
 }
 

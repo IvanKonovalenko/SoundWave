@@ -8,7 +8,9 @@
 export default{
     name:'Footer',
     data(){
-
+        return{
+            
+        }
     },
     methods:{
 
@@ -17,5 +19,5 @@ export default{
 
 </script>
 
-<style scoped>
+<style >
 </style>

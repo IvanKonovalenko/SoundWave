@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Button v-if="status==false">Login</Button>
+        <Button v-if="logStatus==false">Login</Button>
         <AccountLogin v-else></AccountLogin>
     </div>
 </template>
@@ -9,10 +9,16 @@
 
 export default{
     name:'LoginStatus',
+    props:{
+        logStatus:{
+            type:Boolean,
+            required:true
+        }
+    },
     data(){
         return{
-            status:true
-    }
+            
+        }
  
     },
     methods:{

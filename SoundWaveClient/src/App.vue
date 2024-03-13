@@ -1,10 +1,9 @@
 <template>
-    <div>
-        
-        <Header/>
+    <div>       
+        <Header :logStatus="logStatus"/>
         <div>
             <TopCharts></TopCharts>
-            <MainBody></MainBody>
+            <MainBody :searchQuery="searchQuery" :idContent="idContent"></MainBody>
         </div>
         <Footer>
         </Footer>
@@ -16,7 +15,12 @@
 
 export default{
     data(){
-
+        return{
+            logStatus:true,
+            searchQuery:'',
+            idContent:0
+        }
+    
     },
     methods:{
 
@@ -25,5 +29,5 @@ export default{
 
 </script>
 
-<style scoped>
+<style>
 </style>

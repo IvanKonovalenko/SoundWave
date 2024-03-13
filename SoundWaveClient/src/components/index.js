@@ -7,7 +7,8 @@ import LoginStatus from "./Header/LoginStatus.vue";
 import MainBody from "./MainBody.vue";
 import Button from "./UI/Button.vue";
 import AccountLogin from "./Header/AccountLogin.vue";
-import Menu from "./Menu.vue"
+import Menu from "./Header/AccountLogin/Menu.vue";
+import MusicItem from "./UI/MusicItem.vue";
 
 
 export default[
@@ -20,6 +21,7 @@ export default[
     MainBody,
     Button,
     AccountLogin,
-    Menu
+    Menu,
+    MusicItem
     
 ]

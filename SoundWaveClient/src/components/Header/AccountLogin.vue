@@ -2,10 +2,10 @@
     <div class="account-login">
        <p class="account-login--username">dsfsdfdf</p>
        <span class="circle-image">
-	        <img src="../../../public/Default_Transform_your_streaming_service_into_a_visual_experie_2_6a7ee247-1b90-4f62-adbe-fec4dfa63121_0.png"/>
+	        <img :src="'../../../public/Default_Transform_your_streaming_service_into_a_visual_experie_2_6a7ee247-1b90-4f62-adbe-fec4dfa63121_0.png'"/>
 	   </span>
        <v-icon @click="ShowMenu"  name="io-ellipsis-horizontal"  scale="1" /> 
-        <Menu v-show="this.ShowMenuStatus"></Menu>
+       <Menu v-show="this.ShowMenuStatus"></Menu>
   
     </div>
 </template>
